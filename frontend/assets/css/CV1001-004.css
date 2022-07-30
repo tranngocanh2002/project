@@ -1,0 +1,187 @@
+
+/* html {
+    height: 1000px;
+} */
+/*.location {*/
+/*    background-color: #252525;*/
+/*    padding: 20px 15px;*/
+/*    !*padding-top: 170px;*!*/
+/*}*/
+/*.location p {*/
+/*    display: inline-block;*/
+/*    font-size: 13px;*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*}*/
+/*.location i {*/
+/*    margin: 0 10px;*/
+/*}*/
+/*.location a p:hover {*/
+/*    color: #FADD1B;*/
+/*}*/
+
+.container {
+    padding: 90px;
+}
+.content {
+    /*margin-top: 50px;*/
+}
+.show_pro {
+    display: flex;
+}
+.img_show_pro {
+    /*width: 40%;*/
+}
+.img_show_pro img {
+    width: 445px;
+    height: 445px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+
+.text_show_pro {
+    margin-left: 50px;
+}
+.name_pro {
+    padding-bottom: 20px;
+}
+.name_pro h3 {
+    color: #D8D8D8;
+}
+.name_pro p {
+    display: inline-block;
+    color: #B0B0B0;
+}
+.name_pro span {
+    color: #FFE11B;
+}
+.money_pro {
+    display: flex;
+    padding: 20px 0;
+}
+.money h2 {
+    color: #FFE11B;
+}
+.type {
+    margin-left: 340px;
+    font-size: 14px;
+}
+.type p {
+    color: #B0B0B0;
+}
+.type a {
+    color: #DDDDDD;
+    text-decoration: none;
+}
+.type_1 a:hover,
+.type_2 a:hover {
+    color: #FFE11B;
+}
+.type_1 p {
+    display: inline-block;
+}
+.type_2 p {
+    display: inline-block;
+}
+.note_pro {
+    padding: 20px 0;
+    color: #B0B0B0;
+    font-size: 14px;
+}
+
+
+.size_many {
+    padding: 20px 0;
+    /*display: flex;*/
+}
+.size_many > p,
+.how_many span {
+    display: block;
+    color: #B0B0B0;
+    font-size: 14px;
+}
+.size_many .text_size {
+    width: 36%;
+}
+.size_many .text_size {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text_size > label >p {
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 12px;
+    display: inline-block;
+    background-color: #343434;
+    height: 33px;
+    width: 33px;
+    text-align: center;
+    line-height: 33px;
+    margin-top: 5px;
+}
+.text_size a p:hover {
+    color: #FADD1B;
+}
+.how_many .form_sl {
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 12px;
+    background-color: #343434;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 33px;
+    margin-top: 5px;
+}
+
+
+.support {
+    background-color: #2C2C2C;
+    font-size: 14px;
+    display: flex;
+}
+.phone {
+    display: flex;
+}
+.padding_phone {
+    padding: 10px;
+}
+.padding_phone > p {
+    color: #FADD18;
+}
+.sdt_phone {
+    margin: 10px 10px;
+}
+.sdt_phone a {
+    display: block;
+    text-decoration: none;
+    color: #DDDDDD;
+}
+.sdt_phone a:hover {
+    color: #FADD18;
+}
+.zalo {
+    margin-top: 27px;
+}
+
+.order {
+    background-color: #FADD18;
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.order a {
+    color: black;
+    text-decoration: none;
+}

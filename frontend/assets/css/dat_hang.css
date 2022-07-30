@@ -1,0 +1,61 @@
+
+/*.location {*/
+/*    background-color: #252525;*/
+/*    padding: 20px 15px;*/
+/*    padding-top: 170px;*/
+/*}*/
+/*.location p {*/
+/*    display: inline-block;*/
+/*    font-size: 13px;*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*}*/
+/*.location i {*/
+/*    margin: 0 10px;*/
+/*}*/
+/*.location a p:hover {*/
+/*    color: #FADD1B;*/
+/*}*/
+
+
+
+.content {
+    display:flex;
+    margin: 20px 0;
+}
+.info_user {
+    width: 40%;
+}
+.info_oder {
+    width: 60%;
+}
+.info_user input {
+    background-color: #1D1D1D;
+    padding: 10px 150px 10px 0;
+    color: white;
+    border-style: ridge;
+    margin: 5px 0;
+}
+.info_user h2, .info_oder h2 {
+    margin: 10px 0;
+    background-color: #252525;
+    color: #FADD1B;
+    padding:10px 30px 10px 0;
+    /* display: inline; */
+    /* margin-bottom: 100px; */
+}
+.info_oder td img {
+    width: 88px;
+}
+.info_oder table td {
+    padding: 15px;
+}
+.info_oder > input {
+    color: black;
+    text-decoration: none;
+    background-color: #FFE11B;
+    padding: 20px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}

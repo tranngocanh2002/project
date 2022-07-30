@@ -1,0 +1,128 @@
+
+/*.location {*/
+/*    background-color: #252525;*/
+/*    padding: 20px 15px;*/
+/*    padding-top: 170px;*/
+/*}*/
+/*.location p {*/
+/*    display: inline-block;*/
+/*    font-size: 13px;*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*}*/
+/*.location i {*/
+/*    margin: 0 10px;*/
+/*}*/
+/*.location a p:hover {*/
+/*    color: #FADD1B;*/
+/*}*/
+
+
+
+.content {
+    margin: 40px 0;
+    display: flex;
+}
+.filter {
+    width: 22%;
+}
+.head_danh_muc {
+    background-color: #272727;
+    padding: 15px 0;
+}
+.head_danh_muc p {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 13px;
+    color: #FFE11B;
+}
+.head_danh_muc i {
+    float: right;
+    padding-right: 10px ;
+}
+.list_danh_muc {
+    padding: 10px;
+    background-color: #272727;
+    margin-top: 1px;
+}
+.list_danh_muc a {
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 13px;
+}
+.list_danh_muc a p {
+    padding-bottom: 10px;
+}
+.danh_muc {
+    margin-bottom: 10px;
+}
+.size {
+    background-color: #272727;
+    padding-bottom: 20px;
+}
+.size a {
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 12px;
+    display: inline-block;
+    background-color: #343434;
+    height: 33px;
+    width: 33px;
+    text-align: center;
+    line-height: 33px;
+    margin-top: 5px;
+}
+.text_size {
+    width: 200px;
+    margin-left: 10px;
+}
+.text_size a:hover {
+    color: #FADD1B;
+}
+
+
+
+.img_info_pro {
+    width: 78%;
+}
+.title_pro {
+    padding-left: 30px;
+    color: #B1B1B1;
+}
+.row_pro {
+    /* width: 25%; */
+    display: flex;
+    padding-left: 15px;
+}
+.product {
+    margin: 15px;
+    width: 180px;
+}
+.img_pro img {
+    width: 180px;
+    height: 175px;
+    border-style: solid;
+    border-color: #727272;
+    border-width: 1px;
+}
+.img_pro a:hover img {
+    border-color: white;
+    transition: all 0.5s ease;
+    transform: scale(1.01);
+} 
+.info_pro {
+    font-size: 13px;
+}
+.info_pro a {
+    text-decoration: none;
+}
+.info_pro p {
+    color: white;
+    text-decoration: none;
+}
+.info_pro p:hover {
+    color: #FADD1B;
+}
+.info_pro span {
+    color: #FADD1B;
+}

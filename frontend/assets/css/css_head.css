@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #1D1D1D;
+    color: #D8D8D8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main {
+    width: 75%;
+    margin: auto;
+}
+.head {
+    position: fixed;
+    background-color: #1D1D1D;
+    width: 75%;
+    z-index: 1;
+}
+.head_page {
+    display: flex;
+    padding-top: 25px;
+}
+.logo_page {
+    width: 33.33%;
+}
+.logo_page img {
+    width: 100px;
+    margin: auto;
+}
+input[type="search"] {
+    background: #2E2E2E;
+    border-radius: 10px;
+    color: white;
+}
+.fas.fa-search {
+    color: aliceblue;
+}
+.search {
+    width: 33.33%;
+}
+.form_search input {
+    padding: 10px;
+    background-color: #2E2E2E;
+    border-radius: 20px;
+    width: 90%;
+}
+.fas.fa-search {
+    padding: 20px 0;
+}
+.cart {
+    width: 33.33%;
+    padding-top: 20px;
+}
+.cart-number {
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+.fas.fa-shopping-cart {
+    color: white;
+    /*float: right;*/
+}
+.head_tab {
+    padding: 20px 0;
+}
+.tab_show {
+    display: inline-block;
+    width: 65%;
+}
+.text_tab {
+    display: flex;
+    position: relative;
+}
+.text_tab li {
+    padding: 0 5px;
+}
+.text_tab li a {
+    font-size: 13px;
+}
+.text_tab, 
+.text_tab_child1,
+.text_tab_child2,
+.text_tab_child3,
+.text_tab_child4 {
+    list-style-type: none;
+}
+.text_tab li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+.text_tab > li:hover > a {
+    color: #FADD1B;
+}
+.text_tab li:hover .text_tab_child1,
+.text_tab li:hover .text_tab_child2,
+.text_tab li:hover .text_tab_child3,
+.text_tab li:hover .text_tab_child4 {
+    display: inline-block;
+}
+.tab_hotline {
+    display: flex;
+    float: right;
+}
+.tab_hotline p {
+    color: #FADD1B;
+}
+.text_tab_child1,
+.text_tab_child2,
+.text_tab_child3,
+.text_tab_child4 {
+    display: none;
+    position: absolute;
+    background-color: #272727;
+    text-transform: uppercase;
+}
+.text_tab_child1 {
+    top: 20px;
+    left: 15px;
+}
+.text_tab_child2 {
+    top: 20px;
+    left: 115px;
+}
+.text_tab_child3 {
+    top: 20px;
+    left: 198px;
+}
+.text_tab_child4 {
+    top: 20px;
+    left: 361px;
+}
+.text_tab_child1 a li,
+.text_tab_child2 a li,
+.text_tab_child3 a li,
+.text_tab_child4 a li {
+    color: #666666;
+}
+.text_tab_child1 > a >li:hover,
+.text_tab_child2 > a >li:hover,
+.text_tab_child3 > a >li:hover,
+.text_tab_child4 > a >li:hover {
+    color: #FADD1B;
+}
+.border_box {
+    background-color: #C40E0E;
+    border-radius: 5px;
+}
+.tab_hotline samp {
+    font-size: 15px;
+    color: #B1B1B1;
+}
+
+
+.location {
+    background-color: #252525;
+    padding: 20px 15px;
+    /*padding-top: 170px;*/
+}
+
+/* footer */
+.footer {
+    padding-top: 50px;
+    display: flex;
+}
+.show_room {
+    width: 33.33%;
+}
+.head_footer {
+    padding-bottom: 40px;
+}
+.head_footer p {
+    font-size: 22px;
+    color: #B1B1B1;
+}
+.address_footer {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.address_footer p {
+    display: inline-block;
+    color: #FFE11C;
+}
+.address_footer i {
+    color: #FFE11C;
+}
+.address_footer span {
+    color: #B1B1B1;
+    font-size: 12px;
+}
+
+
+.text_email {
+    width: 100%;
+}
+.text_email form input {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #2E2E2E;
+    border-radius: 4px;
+    color: white;
+}
+.send input {
+    background-color: #FFE11B;
+    width: 130px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.follow {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #B1B1B1;
+}
+.follow p {
+    display: inline-block;
+}
+.follow i {
+    margin: 0 10px;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.follow i:hover {
+    color: #FFE11B;
+}
+
+
+.link {
+    width: 33.33%;
+    padding-left: 90px;
+}
+.text_link p {
+    font-size: 12px;
+    color: #DDDDDD;
+    margin-bottom: 10px;
+}
+.text_link a {
+    text-decoration: none;
+}
+.text_link p:hover {
+    color: #FFE11B;
+}

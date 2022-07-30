@@ -1,0 +1,38 @@
+# - Là file nhạy cảm, khi sửa file cần cẩn thanạ do file này dùng để cấu hình truy vấn vào trang
+#- Demo Rewrite URL: Tạo ra đường dẫn thân thiện thay vì đường dẫn MVC -> tốt cho seo và thân thiện với user
+RewriteEngine On
+# - Rewrite trang Giỏ hàng của bạn
+RewriteRule gio-hang-cua-ban.html index.php?controller=cart&action=index
+# - Rewrite xóa sp khỏi giỏ: có 1 tham số động là id của sp
+# muốn xóa, cần sử dụng Regular Expression (biểu thức chính quy) để thể hiện cho tham số động
+RewriteRule xoa-san-pham/([0-9]{1,}).html index.php?controller=cart&action=delete&id=$1
+
+# + Rewrite trang thanh toán:
+RewriteRule thanh-toan.html index.php?controller=payment&action=index
+
+# + Trang chi tiết sản phẩm
+RewriteRule san-pham/(.*)/([0-9]{1,}).html index.php?controller=product&action=detail&slug=$1&id=$2
+
+# + Trang chủ
+RewriteRule home.html index.php?controller=home&action=index
+
+# + Trang hướng dẫn đặt hàng
+RewriteRule huong_dan_list_1.html index.php?controller=support&action=order
+
+# + Trang hướng dẫn thanh toán
+RewriteRule huong_dan_list_2.html index.php?controller=support&action=pay
+
+# + Trang hướng dẫn chính sách bán hàng
+RewriteRule huong_dan_list_3.html index.php?controller=support&action=policy
+
+# + Trang hướng dẫn câu hỏi thường gặp
+RewriteRule huong_dan_list_4.html index.php?controller=support&action=question
+
+# + Trang giới thiệu
+RewriteRule gioi_thieu.html index.php?controller=support&action=introduce
+
+# + Trang hiển thị tất cả sản phẩm
+RewriteRule san_pham.html index.php?controller=product&action=index
+
+# + Trang hiển thị tin tức
+#RewriteRule tin_tuc.html index.php?controller=news&action=index&id=1

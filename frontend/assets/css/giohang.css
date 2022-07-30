@@ -1,0 +1,53 @@
+table.table.table-bordered {
+    margin-top: 50px;
+}
+a.content-product-a {
+    color: white;
+    text-decoration: none;
+}
+.delete-product {
+    text-decoration: none;
+    color: red;
+}
+table tbody tr {
+    text-align: left;
+}
+tbody tr th {
+    padding: 20px 0;
+}
+.product-amount.form-control {
+    padding: 10px 0;
+    background: #1D1D1D;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+a.continue {
+    color: black;
+    background: #D2BC8A;
+    padding: 11px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+input.update_pay {
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+a.go_pay {
+    color: black;
+    background: #FFE11B;
+    padding: 11px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+img.product-avatar-cart {
+    width: 150px;
+}
+.timeline-items {
+    margin-top: 20px;
+}
